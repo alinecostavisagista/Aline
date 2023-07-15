@@ -1,10 +1,12 @@
 *{
   max-width: 1400px;
+  margin: 0 auto;
 }
 
 body {
     margin: 0;
     padding: 0;
+    background-color: #000;
     background-image: url('img/capa-02.png');
     background-size: cover;
     background-repeat: no-repeat;
