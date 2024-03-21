@@ -64,9 +64,11 @@ body {
     background-color: #ccc;
   }
 
+  /*
   .options .consultoria{
-    animation: consulanim 3s infinite
+    animation: consulanim 7s infinite
   }
+*/
 
   @keyframes consulanim {
     0%{
@@ -79,5 +81,22 @@ body {
         opacity: 0;
     }
   }
+
+  .options .formacao {
+    animation: formacaoanim 2s infinite;
+    border: 2px solid transparent; /* Começa com uma borda transparente */
+}
+
+@keyframes formacaoanim {
+  0%{
+      opacity: 0;
+  }
+  50%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+  }
+}
 
   
